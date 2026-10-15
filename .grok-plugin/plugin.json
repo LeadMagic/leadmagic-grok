@@ -1,0 +1,15 @@
+{
+	"name": "leadmagic",
+	"version": "1.0.6",
+	"description": "Official LeadMagic plugin for Grok and Grok Build with hosted MCP tools. Search people, companies, and jobs; find and validate work emails; look up professional mobile numbers. Sign in with your LeadMagic account on first connect; no API key needed.",
+	"author": {
+		"name": "LeadMagic Corporation",
+		"email": "plugins@leadmagic.io",
+		"url": "https://leadmagic.io"
+	},
+	"homepage": "https://leadmagic.io/docs/mcp/introduction",
+	"repository": "https://github.com/LeadMagic/leadmagic-grok",
+	"license": "MIT",
+	"keywords": ["leadmagic", "leadmagic mcp", "leadmagic email finder", "leadmagic enrichment"],
+	"logo": "assets/logo.svg"
+}

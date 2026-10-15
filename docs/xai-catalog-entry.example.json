@@ -1,0 +1,13 @@
+{
+	"name": "leadmagic",
+	"description": "LeadMagic B2B data integration (hosted MCP server + skills). Search people, companies, and jobs; find and validate work emails; look up professional mobile numbers; research accounts. Sign in with your LeadMagic account; no API key needed.",
+	"category": "productivity",
+	"source": {
+		"source": "url",
+		"url": "https://github.com/LeadMagic/leadmagic-grok.git",
+		"sha": "REPLACE_WITH_40_CHAR_SHA_OF_THE_SUBMITTED_COMMIT"
+	},
+	"homepage": "https://leadmagic.io/docs/mcp/introduction",
+	"keywords": ["leadmagic", "leadmagic mcp", "leadmagic email finder", "leadmagic enrichment"],
+	"domains": ["leadmagic.io", "app.leadmagic.io", "mcp.leadmagic.io", "api.leadmagic.io"]
+}
