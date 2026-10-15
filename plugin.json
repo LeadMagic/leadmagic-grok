@@ -1,8 +1,8 @@
 {
 	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
 	"name": "leadmagic",
-	"version": "1.0.0",
-	"description": "Official LeadMagic plugin for Grok, Grok Bot, and Cursor with hosted MCP tools. Search people, companies, and jobs; find and validate work emails; look up professional mobile numbers.",
+	"version": "1.0.6",
+	"description": "Official LeadMagic plugin for Cursor and Grok Bot with hosted MCP tools. Search people, companies, and jobs; find and validate work emails; look up professional mobile numbers.",
 	"author": {
 		"name": "LeadMagic Corporation",
 		"email": "plugins@leadmagic.io",
