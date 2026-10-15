@@ -1,8 +1,8 @@
 # LeadMagic for Grok
 
-<img src="https://raw.githubusercontent.com/LeadMagic/leadmagic-cursor-plugin/main/assets/logo.svg" width="64" height="64" alt="LeadMagic logo">
+<img src="assets/logo.svg" width="64" height="64" alt="LeadMagic logo">
 
-Official LeadMagic plugin for **Grok**, **Grok Bot**, and **Cursor**. Connect your agent to LeadMagic's hosted MCP for B2B research: **search** people, companies, and jobs; **find** and **validate** work emails; look up **professional mobile** numbers.
+Official LeadMagic plugin for **Grok** and **Grok Build**. Connect your agent to LeadMagic's hosted MCP for B2B research: **search** people, companies, and jobs; **find** and **validate** work emails; look up **professional mobile** numbers.
 
 Published by LeadMagic Corporation.
 
@@ -26,19 +26,7 @@ grok mcp add --transport http leadmagic https://mcp.leadmagic.io/mcp
 
 ### Cursor
 
-Add to `~/.cursor/mcp.json` (all projects) or `.cursor/mcp.json` (project):
-
-```json
-{
-	"mcpServers": {
-		"leadmagic": {
-			"url": "https://mcp.leadmagic.io/mcp"
-		}
-	}
-}
-```
-
-Cursor starts OAuth and opens the browser on first use. For the full plugin bundle (rules, skills, agents, commands), use [LeadMagic/leadmagic-cursor-plugin](https://github.com/LeadMagic/leadmagic-cursor-plugin).
+Use the dedicated [LeadMagic Cursor plugin](https://github.com/LeadMagic/leadmagic-cursor-plugin), which bundles the same hosted MCP with Cursor rules, skills, agents, and commands.
 
 ## Sign in
 
@@ -67,10 +55,10 @@ Details: [LeadMagic MCP authentication](https://leadmagic.io/docs/mcp/authentica
 
 ## xAI plugin catalog
 
-`.grok-plugin/marketplace.json` is the entry for the PR-based catalog at [xai-org/plugin-marketplace](https://github.com/xai-org/plugin-marketplace). The `commit` field is a placeholder — replace it with the 40-character SHA of the `leadmagic-grok` commit being submitted when opening the catalog PR.
+The plugin follows the layout the [xai-org/plugin-marketplace](https://github.com/xai-org/plugin-marketplace) indexer reads: `.grok-plugin/plugin.json` for the manifest, `.mcp.json` for the hosted MCP server, and `skills/`. The catalog entry itself lives only in xai-org's `.grok-plugin/marketplace.json`; [`docs/xai-catalog-entry.example.json`](docs/xai-catalog-entry.example.json) is the entry to append there, with `sha` set to the 40-character SHA of the `leadmagic-grok` commit being submitted.
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
 
-Support: [LeadMagic Support](https://leadmagic.io/docs/support) · [Privacy](https://leadmagic.io/legal/privacy) · [Terms](https://leadmagic.io/legal/terms)
+Support: [LeadMagic Support](https://leadmagic.io/docs/v1/support) · [Privacy](https://leadmagic.io/legal/privacy) · [Terms](https://leadmagic.io/legal/terms)
