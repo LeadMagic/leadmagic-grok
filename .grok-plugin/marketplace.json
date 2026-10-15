@@ -1,0 +1,12 @@
+{
+	"name": "leadmagic",
+	"publisher": "leadmagic",
+	"description": "Official LeadMagic plugin for Grok and Grok Bot: hosted MCP search, work email, and professional mobile.",
+	"source": {
+		"repository": "https://github.com/LeadMagic/leadmagic-grok",
+		"commit": "REPLACE_WITH_40_CHAR_COMMIT_SHA_AT_PR_TIME"
+	},
+	"mcp": {
+		"url": "https://mcp.leadmagic.io/mcp"
+	}
+}
